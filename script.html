@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Eligibility Checker</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            border:3px solid rgb(249, 246, 246);
+            max-width: 700px;
+            background: rgb(0,0,0);
+            color: aliceblue;
+        }
+        img{
+            background-size: cover;
+            height: 400px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body >
+
+<h1>Voter Eligibility Checker</h1>
+
+<label for="age">Enter your age:</label>
+<input type="number" id="age" placeholder="Enter your age" min="0" required>
+<button onclick="checkEligibility()">Check Eligibility</button>
+
+<p id="result"></p>
+<img src="_04b766e0-19f9-4a1a-9bb0-69df0ab1ae6c.jpg">
+
+
+<script src="javascript.js"></script>
+
+</body>
+</html>
