@@ -1,4 +1,4 @@
-function checkEligibility() {
+function cE() {
     
     var age = document.getElementById("age").value;
 
